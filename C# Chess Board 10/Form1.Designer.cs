@@ -46,6 +46,13 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Bishop",
+            "Rook",
+            "Knight",
+            "King",
+            "Queen",
+            "Pawn"});
             this.comboBox1.Location = new System.Drawing.Point(461, 1);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -67,7 +74,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Chess Piece Moves";
             this.ResumeLayout(false);
             this.PerformLayout();
 
