@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//---------------------------
+//
+
+
 namespace C__Chess_Board_10
 {
     public partial class Form1 : Form
